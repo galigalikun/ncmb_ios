@@ -16,7 +16,7 @@
 
 #import <Foundation/Foundation.h>
 #import "NCMBConstants.h"
-#import <FacebookSDK/FBSession.h>
+// #import <FacebookSDK/FBSession.h>
 
 @class NCMBUser;
 

@@ -245,14 +245,14 @@ enum{
 shouldStartLoadWithRequest:(NSURLRequest*) request
   navigationType:(UIWebViewNavigationType) navigationType
 {
-        /* リッチプッシュ通知の仕様変更でシンプルになった
+    // リッチプッシュ通知の仕様変更でシンプルになった
     NSString* urlStr = [self.wv stringByEvaluatingJavaScriptFromString:@"document.URL"];
     NSURL *homeUrl = [NSURL URLWithString:urlStr];
     if (navigationType == UIWebViewNavigationTypeLinkClicked){
 
         if (![request.URL.host isEqualToString:homeUrl.host]){
             //UIWindow* window = [UIApplication sharedApplication].windows[0];
-            
+            /*
             UIActionSheet *actionSheet = [[UIActionSheet alloc] init];
             actionSheet.delegate = self;
             actionSheet.title = [[request URL] absoluteString];
@@ -261,11 +261,12 @@ shouldStartLoadWithRequest:(NSURLRequest*) request
             actionSheet.cancelButtonIndex = 1;
             
             [actionSheet showInView:self.wv];
-            
+            */
+            [[UIApplication sharedApplication] openURL:homeUrl];
             return NO;
         }
     }
-     */
+
     [self startWebViewLoading];
     
     return YES;

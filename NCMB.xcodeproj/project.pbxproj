@@ -66,7 +66,6 @@
 		5DA0364D1A126DEC00E10D64 /* NCMBOAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA0363A1A126DEC00E10D64 /* NCMBOAToken.m */; };
 		5DA0364E1A126DEC00E10D64 /* NCMBTwitterLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA0363C1A126DEC00E10D64 /* NCMBTwitterLoginView.m */; };
 		5DA0364F1A126DEC00E10D64 /* NCMBTwitterUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA0363E1A126DEC00E10D64 /* NCMBTwitterUtils.m */; };
-		5DA18B571A19AEFC0076EA72 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA18B561A19AEFC0076EA72 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -178,7 +177,6 @@
 		5DA0363C1A126DEC00E10D64 /* NCMBTwitterLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBTwitterLoginView.m; sourceTree = "<group>"; };
 		5DA0363D1A126DEC00E10D64 /* NCMBTwitterUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBTwitterUtils.h; sourceTree = "<group>"; };
 		5DA0363E1A126DEC00E10D64 /* NCMBTwitterUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBTwitterUtils.m; sourceTree = "<group>"; };
-		5DA18B561A19AEFC0076EA72 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Desktop/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		5DA18B601A19D5630076EA72 /* NCMBSubclassing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBSubclassing.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -187,7 +185,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DA18B571A19AEFC0076EA72 /* FacebookSDK.framework in Frameworks */,
 				5D46C8AA1A11D8B300278A10 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,7 +202,6 @@
 		5D46C87E1A11CE6200278A10 = {
 			isa = PBXGroup;
 			children = (
-				5DA18B561A19AEFC0076EA72 /* FacebookSDK.framework */,
 				5D46C8A91A11D8B300278A10 /* Foundation.framework */,
 				5D46C8891A11CE6200278A10 /* NCMB */,
 				5D46C8931A11CE6200278A10 /* NCMBTests */,
